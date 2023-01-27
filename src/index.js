@@ -5,7 +5,7 @@ import Layout from './pages/Layout/Layout.page';
 import Home from './pages/Home/Home.page';
 import Blogs from './pages/Blogs/Blogs.page';
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
