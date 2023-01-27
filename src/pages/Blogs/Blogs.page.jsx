@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Blogs= () => {
+const Blogs = () => {
     return (
         <div>
             Blogs
