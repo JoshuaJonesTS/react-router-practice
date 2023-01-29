@@ -5,6 +5,7 @@ import Layout from './pages/Layout/Layout.page';
 import Home from './pages/Home/Home.page';
 import Blogs from './pages/Blogs/Blogs.page';
 import Squares from './pages/Squares/Squares.page';
+import State from './pages/State/State.page';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Route index element={<Home/>} />
           <Route path="blogs" element={<Blogs/>} />
           <Route path="squares" element={<Squares/>} />
+          <Route path="state" element={<State/>} />
           <Route path="*" element={<div>Page not found</div>} />
         </Route>
       </Routes>
