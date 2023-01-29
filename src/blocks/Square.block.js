@@ -6,7 +6,7 @@ const Square = ({ color }) => {
             backgroundColor: color,
             border: '5px solid black',
             height: '100px',
-            maxWidth: '100px',
+            width: '100px',
         }}>
             Square
         </div>
