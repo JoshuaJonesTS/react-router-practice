@@ -1,5 +1,6 @@
 import React from 'react';
 import Square from '../../blocks/Square.block';
+import ArraySquares from './Squares.util';
 
 const Squares = () => {
     let purpleSquares = []; // hold square componets
