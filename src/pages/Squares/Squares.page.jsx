@@ -2,12 +2,12 @@ import React from 'react';
 import Square from '../../blocks/Square.block';
 
 const Squares = () => {
-    let purpleSquares = [];
+    let purpleSquares = []; // hold square componets
 
     for(let i = 1; i <= 20; i++) {
         purpleSquares.push(<Square color={'purple'} label={['purple ' + i, 'white']}/>);
     }
-    
+
     return (
         <div style={{
             display: 'flex',
