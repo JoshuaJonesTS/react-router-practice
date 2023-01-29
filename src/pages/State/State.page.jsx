@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 
 const State = () => {
     const [state, setState] = useState('California');
+    const [buttonColor, setButtonColor] = useState('rgb(34, 139, 34)');
 
     return (
         <div>
             <h1>This code is being typed on a laptop located in {state}</h1>
             <button
             style={{
-                backgroundColor: 'rgb(34, 139, 34)',
+                backgroundColor: buttonColor,
                 borderRadius: '10px',
                 color: 'white',
                 fontWeight: '700',
