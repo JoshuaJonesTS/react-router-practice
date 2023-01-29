@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Square = ({ color }) => {
+const Square = ({ color, label }) => {
     return (
         <div style={{
             backgroundColor: color,
@@ -9,7 +9,7 @@ const Square = ({ color }) => {
             width: '100px',
             textAlign: 'center'
         }}>
-            Square
+            {label}
         </div>
     );
 }
