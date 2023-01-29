@@ -7,6 +7,7 @@ const Square = ({ color }) => {
             border: '5px solid black',
             height: '100px',
             width: '100px',
+            textAlign: 'center'
         }}>
             Square
         </div>
