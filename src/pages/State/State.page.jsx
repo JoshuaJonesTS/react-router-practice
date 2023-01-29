@@ -4,11 +4,9 @@ import { americanStates } from './State.utils';
 
 const State = () => {
     const [state, setState] = useState('');
-    const [buttonColor, setButtonColor] = useState('rgb(34, 139, 34)');
 
     const handleChange = (pickedState) => {
         setState(pickedState)
-        setButtonColor('rgb(32, 178, 170)')
     }
 
     return (
