@@ -14,7 +14,13 @@ const State = () => {
     return (
         <div>
             <h1>This code is being typed on a laptop located in {state}</h1>
-            <Button buttonColor={buttonColor} event={() => handleChange(americanStates[0])} text={americanStates[0]}></Button>
+            {
+                americanStates.map(state => {
+                    return(
+                        <Button buttonColor={buttonColor} event={() => handleChange(state)} text={state}></Button>
+                    )
+                })
+            }
         </div>
     );
 }
