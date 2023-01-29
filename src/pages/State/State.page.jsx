@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import Button from '../../blocks/Button.block';
+import { americanStates } from './State.utils';
 
 const State = () => {
-    const [state, setState] = useState('California');
+    const [state, setState] = useState('');
     const [buttonColor, setButtonColor] = useState('rgb(34, 139, 34)');
-
-    const oneState = ['Nevada', 'Arizona', 'Utah', 'Colorado', 'New Mexico']
 
     const handleChange = (pickedState) => {
         setState(pickedState)
@@ -15,7 +14,7 @@ const State = () => {
     return (
         <div>
             <h1>This code is being typed on a laptop located in {state}</h1>
-            <Button buttonColor={buttonColor} event={() => handleChange(oneState[0])} text={oneState[0]}></Button>
+            <Button buttonColor={buttonColor} event={() => handleChange(americanStates[0])} text={americanStates[0]}></Button>
         </div>
     );
 }
