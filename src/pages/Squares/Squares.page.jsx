@@ -3,7 +3,7 @@ import Square from '../../blocks/Square.block';
 import ArraySquares from './Squares.util';
 
 const Squares = () => {
-    let arraySquares = ArraySquares(20, 'purple');
+    let arraySquares = ArraySquares(20, 'green');
     
     return (
         <div style={{
