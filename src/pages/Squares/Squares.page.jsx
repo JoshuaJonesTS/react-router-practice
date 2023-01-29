@@ -9,6 +9,7 @@ const Squares = () => {
     return (
         <div style={{
             display: 'flex',
+            flexWrap: 'wrap',
             justifyContent: 'space-evenly'
         }}>
             <Square color={'red'} label={'red 1'}/>
