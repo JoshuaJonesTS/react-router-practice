@@ -12,10 +12,10 @@ const Squares = () => {
             flexWrap: 'wrap',
             justifyContent: 'space-evenly'
         }}>
-            <Square color={'red'} label={'red 1'}/>
-            <Square color={'blue'} label={'blue 1'}/>
-            <Square color={'green'} label={'green 1'}/>
-            <Square color={'yellow'} label={'yellow 1'}/>
+            <Square color={'red'} label={['red 1', 'white']}/>
+            <Square color={'blue'} label={['blue 1', 'white']}/>
+            <Square color={'green'} label={['green 1', 'black']}/>
+            <Square color={'yellow'} label={['yellow 1', 'black']}/>
             {purpleSquares}
         </div>
     );
