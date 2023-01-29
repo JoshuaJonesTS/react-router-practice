@@ -7,10 +7,10 @@ const Squares = () => {
             display: 'flex',
             justifyContent: 'space-evenly'
         }}>
-            <Square color={'red'}/>
-            <Square color={'blue'}/>
-            <Square color={'green'}/>
-            <Square color={'yellow'}/>
+            <Square color={'red'} label={'red 1'}/>
+            <Square color={'blue'} label={'blue 1'}/>
+            <Square color={'green'} label={'green 1'}/>
+            <Square color={'yellow'} label={'yellow 1'}/>
         </div>
     );
 }
