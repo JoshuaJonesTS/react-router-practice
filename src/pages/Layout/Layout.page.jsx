@@ -18,6 +18,9 @@ const Layout = () => {
               <li>
                 <Link to="/state">State</Link>
               </li>
+              <li>
+                <Link to="/count">Count</Link>
+              </li>
             </ul>
           </nav>
     
