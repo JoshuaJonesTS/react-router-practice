@@ -3,12 +3,6 @@ import Square from '../../blocks/Square.block';
 import ArraySquares from './Squares.util';
 
 const Squares = () => {
-    let purpleSquares = []; // hold square componets
-
-    for(let i = 1; i <= 20; i++) {
-        purpleSquares.push(<Square color={'purple'} label={['purple ' + i, 'white']}/>);
-    }
-
     return (
         <div style={{
             display: 'flex',
@@ -19,7 +13,6 @@ const Squares = () => {
             <Square color={'blue'} label={['blue 1', 'white']}/>
             <Square color={'green'} label={['green 1', 'black']}/>
             <Square color={'yellow'} label={['yellow 1', 'black']}/>
-            {purpleSquares}
         </div>
     );
 }
