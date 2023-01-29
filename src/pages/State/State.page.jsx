@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Button from '../../blocks/Button.block';
 
 const State = () => {
     const [state, setState] = useState('California');
@@ -12,18 +13,7 @@ const State = () => {
     return (
         <div>
             <h1>This code is being typed on a laptop located in {state}</h1>
-            <button
-            style={{
-                backgroundColor: buttonColor,
-                borderRadius: '10px',
-                color: 'white',
-                fontWeight: '700',
-                padding: '10px'
-            }}
-            type="button"
-            onClick={
-              handleChange
-            }>Nevada</button>
+            <Button buttonColor={buttonColor} event={handleChange} text={'Nevada'}></Button>
         </div>
     );
 }
