@@ -4,7 +4,7 @@ import Square from '../../blocks/Square.block';
 const Squares = () => {
     return (
         <div>
-            <Square />
+            <Square color={'red'}/>
         </div>
     );
 }
