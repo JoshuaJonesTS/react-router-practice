@@ -4,6 +4,10 @@ const State = () => {
     const [state, setState] = useState('California');
     const [buttonColor, setButtonColor] = useState('rgb(34, 139, 34)');
 
+    const handleChange = () => {
+        setState('Nevada')
+    }
+
     return (
         <div>
             <h1>This code is being typed on a laptop located in {state}</h1>
@@ -17,7 +21,7 @@ const State = () => {
             }}
             type="button"
             onClick={
-                () => setState('Nevada')
+              handleChange
             }>Nevada</button>
         </div>
     );
