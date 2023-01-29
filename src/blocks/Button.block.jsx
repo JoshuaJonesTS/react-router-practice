@@ -1,7 +1,8 @@
 import React from 'react'
 
 const Button = ({ buttonColor, event, text }) => {
-    <button
+    return(
+        <button
         style={{
             backgroundColor: buttonColor,
             borderRadius: '10px',
@@ -14,6 +15,7 @@ const Button = ({ buttonColor, event, text }) => {
             event
         }>{text}
     </button>
+    );
 }
 
 export default Button;
