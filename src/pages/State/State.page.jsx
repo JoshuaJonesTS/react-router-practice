@@ -8,7 +8,9 @@ const State = () => {
             <h1>This code is being typed on a laptop located in {state}</h1>
             <button
             type="button"
-            onClick={() => setState('Nevada')}>Nevada</button>
+            onClick={
+                () => setState('Nevada')
+            }>Nevada</button>
         </div>
     );
 }
