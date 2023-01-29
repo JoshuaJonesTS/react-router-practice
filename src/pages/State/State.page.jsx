@@ -6,6 +6,7 @@ const State = () => {
 
     const handleChange = () => {
         setState('Nevada')
+        setButtonColor('rgb(32, 178, 170)')
     }
 
     return (
