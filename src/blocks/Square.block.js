@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Square = ({ color, label }) => {
+const Square = ({ color, label = []}) => {
     return (
         <div style={{
             backgroundColor: color,
