@@ -9,6 +9,8 @@ const Squares = () => {
         }}>
             <Square color={'red'}/>
             <Square color={'blue'}/>
+            <Square color={'green'}/>
+            <Square color={'yellow'}/>
         </div>
     );
 }
