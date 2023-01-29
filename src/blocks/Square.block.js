@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Square = () => {
+const Square = ({ color }) => {
     return (
         <div style={{
-            backgroundColor: 'red',
+            backgroundColor: color,
             border: '5px solid black',
             height: '100px',
             maxWidth: '100px',
