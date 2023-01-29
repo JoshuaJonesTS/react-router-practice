@@ -5,11 +5,12 @@ const Square = ({ color, label = []}) => {
         <div style={{
             backgroundColor: color,
             border: '5px solid black',
+            color: label[1],
             height: '100px',
             width: '100px',
             textAlign: 'center'
         }}>
-            {label}
+            {label[0]}
         </div>
     );
 }
