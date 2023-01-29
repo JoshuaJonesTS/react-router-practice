@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from './pages/Layout/Layout.page';
 import Home from './pages/Home/Home.page';
 import Blogs from './pages/Blogs/Blogs.page';
+import Squares from './pages/Squares/Squares.page';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>} />
           <Route path="blogs" element={<Blogs/>} />
+          <Route path="squares" element={<Blogs/>} />
           <Route path="*" element={<div>Page not found</div>} />
         </Route>
       </Routes>
